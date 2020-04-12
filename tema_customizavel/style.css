@@ -1,0 +1,55 @@
+/*
+Theme Name: Tema Customisável (TGD Studio)
+Author: João Lucas T caetano
+Description: Tema criado para o desafio da Tgd Studio  em WordPress
+Version: 1.0
+Tags: Header customisável, Banner Carrosel, Secão para a história da empresa, Footer customisável
+*/
+
+*, *:before , *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+body{margin: 0; padding:0; border:0;}
+
+@media only screen and (max-width: 480px){
+    .TopFaixa{float:left; width:100%; height: 80px; background: #000; opacity: 0.7; filter: alpha(opacity=70);}
+
+    .BottomFaixa{float:left; width:100%; height: 50px; background: #000;}
+        .BottomFaixa a{float:left; width: 20%; line-height: 50px; text-align: center; color:#FFF; text-decoration: none;}
+        .BottomFaixa a:hover{text-decoration: underline;}
+
+    .Logomarca{position: absolute; top:10px; left:5%; z-index: 2;}
+        .Logomarca img(widh: auto; max-width: 60px:)
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .TopFaixa{float:left; width:100%; height: 120px; background: #000; opacity: 0.7; filter: alpha(opacity=70);}
+
+    .BottomFaixa{float:left; width:100%; height: 50px; background: #000;}
+        .BottomFaixa a{float:left; width: 20%; line-height: 50px; text-align: center; color:#FFF; text-decoration: none;}
+        .BottomFaixa a:hover{text-decoration: underline;}
+
+    .Logomarca{position: absolute; top:10px; left:5%; z-index: 2;}
+        .Logomarca img(widh: auto; max-width: 100px:)
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px){
+    .TopFaixa{float:left; width:100%; height: 100px; background: #000; opacity: 0.7; filter: alpha(opacity=70);}
+
+    .BottomFaixa{float:left; width:100%; height: 50px; background: #000;}
+        .BottomFaixa a{float:left; width: 20%; line-height: 50px; text-align: center; color:#FFF; text-decoration: none;}
+        .BottomFaixa a:hover{text-decoration: underline;}
+
+    .Logomarca{position: absolute; top:10px; left:5%; z-index: 2;}
+        .Logomarca img(widh: auto; max-width: 80px:)
+}
+
+@media only screen and (min-width: 1200px){
+    .TopFaixa{float:left; width:100%; height: 100px; background: #000; opacity: 0.7; filter: alpha(opacity=70);}
+
+    .BottomFaixa{float:left; width:100%; height: 50px; background: #000;}
+        .BottomFaixa a{float:left; width: 20%; line-height: 50px; text-align: center; color:#FFF; text-decoration: none;}
+        .BottomFaixa a:hover{text-decoration: underline;}
+
+    .Logomarca{position: absolute; top:10px; left:5%; z-index: 2;}
+        .Logomarca img(widh: auto; max-width: 80px:)
+}
